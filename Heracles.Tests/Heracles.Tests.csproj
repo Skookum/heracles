@@ -37,11 +37,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DotNetStandard">
-      <HintPath>..\packages\DotNetStandard.0.0.16\lib\DotNetStandard.dll</HintPath>
+    <Reference Include="DotNetStandard, Version=0.0.20.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetStandard.0.0.20\lib\DotNetStandard.dll</HintPath>
     </Reference>
-    <Reference Include="DotNetStandard.Vent">
-      <HintPath>..\packages\DotNetStandard.0.0.16\lib\DotNetStandard.Vent.dll</HintPath>
+    <Reference Include="DotNetStandard.Vent, Version=0.0.20.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetStandard.0.0.20\lib\DotNetStandard.Vent.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>
@@ -64,16 +66,17 @@
     <Compile Include="..\SolutionVersionInfo.cs">
       <Link>Properties\SolutionVersionInfo.cs</Link>
     </Compile>
-    <Compile Include="UnitTest1.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
+    <Compile Include="CorsTests.cs" />
+    <Compile Include="MembershipTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Heracles\Heracles.csproj">
       <Project>{5163d726-310e-45c4-8361-e9568727b57b}</Project>
       <Name>Heracles</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
