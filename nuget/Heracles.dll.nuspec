@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Heracles</id>
+    <version>0.0.0</version>
+    <authors>Skookum</authors>
+    <owners>Skookum</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/Skookum/Heracles</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Ability based authorization</description>
+    <releaseNotes>Ability based authorization</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>Authentication</tags>
+    <dependencies>
+      <dependency id="DotNetStandard.dll" version="0.0.4" />
+    </dependencies>
+  </metadata>
+</package>
