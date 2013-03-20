@@ -6,6 +6,7 @@
     <BUILD_NUMBER Condition="'$(BuildingInsideVisualStudio)' == true">0.0.0</BUILD_NUMBER>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <Import Project="$(MSBuildCommunityTasksPath)\MSBuild.Community.Tasks.targets" />
   <PropertyGroup>
@@ -16,7 +17,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Heracles</RootNamespace>
     <AssemblyName>Heracles</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -37,13 +38,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DotNetStandard, Version=0.0.20.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="DotNetStandard, Version=0.0.21.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\DotNetStandard.0.0.20\lib\DotNetStandard.dll</HintPath>
+      <HintPath>..\packages\DotNetStandard.0.0.21\lib\DotNetStandard.dll</HintPath>
     </Reference>
-    <Reference Include="DotNetStandard.Vent, Version=0.0.20.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="DotNetStandard.Vent, Version=0.0.21.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\DotNetStandard.0.0.20\lib\DotNetStandard.Vent.dll</HintPath>
+      <HintPath>..\packages\DotNetStandard.0.0.21\lib\DotNetStandard.Vent.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
