@@ -23,7 +23,7 @@ namespace Heracles
 
             if (addToCache)
             {
-                TokenCacheStrategy.Instance.Insert(tokenValue);
+                TokenCache.Instance.Insert(tokenValue);
             }
 
             return tokenValue;
@@ -33,19 +33,19 @@ namespace Heracles
         {
             string tokenValue = HashGenerator.GetRandomHash();
 
-            TokenCacheStrategy.Instance.Insert(tokenValue, item);
+            TokenCache.Instance.Insert(tokenValue, item);
 
             return tokenValue;
         }
 
         public object GetObjectFromCache(string key)
         {
-            return TokenCacheStrategy.Instance.GetCachedObject(key);
+            return TokenCache.Instance.GetCachedObject(key);
         }
 
         public void RemoveTokenFromCache(string token)
         {
-            TokenCacheStrategy.Instance.Delete(token);
+            TokenCache.Instance.Delete(token);
         }
     }
 }
