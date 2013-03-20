@@ -13,7 +13,7 @@
     <copyright>Copyright 2013</copyright>
     <tags>Authentication</tags>
     <dependencies>
-      <dependency id="DotNetStandard.dll" />
+      <dependency id="DotNetStandard" />
     </dependencies>
   </metadata>
 </package>
