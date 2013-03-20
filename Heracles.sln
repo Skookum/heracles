@@ -5,6 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heracles", "Heracles\Heracl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3AABC341-93F9-4B2F-AAC4-317EC527394C}"
 	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
 		SolutionInfo.cs = SolutionInfo.cs
 		SolutionVersionInfo.cs = SolutionVersionInfo.cs
 	EndProjectSection
@@ -23,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A5D3AB
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heracles.Test", "Heracles.Test\Heracles.Test.csproj", "{015314A0-BA78-471E-B86F-F3D7C6399A39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +36,10 @@ Global
 		{5163D726-310E-45C4-8361-E9568727B57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5163D726-310E-45C4-8361-E9568727B57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5163D726-310E-45C4-8361-E9568727B57B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015314A0-BA78-471E-B86F-F3D7C6399A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015314A0-BA78-471E-B86F-F3D7C6399A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015314A0-BA78-471E-B86F-F3D7C6399A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015314A0-BA78-471E-B86F-F3D7C6399A39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
