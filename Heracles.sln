@@ -24,7 +24,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A5D3AB
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heracles.Test", "Heracles.Test\Heracles.Test.csproj", "{015314A0-BA78-471E-B86F-F3D7C6399A39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heracles.Tests", "Heracles.Tests\Heracles.Tests.csproj", "{015314A0-BA78-471E-B86F-F3D7C6399A39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
